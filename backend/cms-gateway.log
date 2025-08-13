@@ -1,0 +1,30 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2025-08-13T08:49:38.668Z  INFO 8315 --- [cms-gateway] [           main] com.cms.gateway.CmsGatewayApplication    : Starting CmsGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 8315 (/workspace/backend/cms-gateway/target/cms-gateway-0.0.1-SNAPSHOT.jar started by ubuntu in /workspace)
+2025-08-13T08:49:38.675Z  INFO 8315 --- [cms-gateway] [           main] com.cms.gateway.CmsGatewayApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T08:49:42.511Z  INFO 8315 --- [cms-gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c1f3499c-83e5-3cf0-aed5-f9307b39262a
+2025-08-13T08:49:45.165Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-08-13T08:49:45.165Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-08-13T08:49:45.165Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-08-13T08:49:45.165Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-08-13T08:49:45.172Z  INFO 8315 --- [cms-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-08-13T08:49:45.593Z  INFO 8315 --- [cms-gateway] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-08-13T08:49:45.824Z  INFO 8315 --- [cms-gateway] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-13T08:49:45.878Z  INFO 8315 --- [cms-gateway] [           main] com.cms.gateway.CmsGatewayApplication    : Started CmsGatewayApplication in 8.956 seconds (process running for 10.252)

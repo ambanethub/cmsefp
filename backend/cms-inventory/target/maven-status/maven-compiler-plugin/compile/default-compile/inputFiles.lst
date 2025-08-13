@@ -1,0 +1,5 @@
+/workspace/backend/cms-inventory/src/main/java/com/cms/inventory/CmsInventoryApplication.java
+/workspace/backend/cms-inventory/src/main/java/com/cms/inventory/controller/InventoryController.java
+/workspace/backend/cms-inventory/src/main/java/com/cms/inventory/model/AuditEvent.java
+/workspace/backend/cms-inventory/src/main/java/com/cms/inventory/model/InventoryItem.java
+/workspace/backend/cms-inventory/src/main/java/com/cms/inventory/model/StorageLocation.java

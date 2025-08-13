@@ -1,0 +1,5 @@
+com/cms/inventory/model/StorageLocation.class
+com/cms/inventory/model/InventoryItem.class
+com/cms/inventory/controller/InventoryController.class
+com/cms/inventory/CmsInventoryApplication.class
+com/cms/inventory/model/AuditEvent.class

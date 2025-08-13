@@ -1,0 +1,41 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cms-gateway
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+      routes:
+        - id: auth
+          uri: http://localhost:8081
+          predicates:
+            - Path=/auth/**
+        - id: seizures
+          uri: http://localhost:8082
+          predicates:
+            - Path=/seizures/**
+        - id: inventory
+          uri: http://localhost:8083
+          predicates:
+            - Path=/inventory/**
+        - id: transfers
+          uri: http://localhost:8084
+          predicates:
+            - Path=/transfers/**
+        - id: audit
+          uri: http://localhost:8085
+          predicates:
+            - Path=/audit/**,/reports/**
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
