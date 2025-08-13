@@ -1,0 +1,23 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2025-08-13T08:49:38.288Z  INFO 8311 --- [cms-seizures] [           main] c.cms.seizures.CmsSeizuresApplication    : Starting CmsSeizuresApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 8311 (/workspace/backend/cms-seizures/target/cms-seizures-0.0.1-SNAPSHOT.jar started by ubuntu in /workspace)
+2025-08-13T08:49:38.299Z  INFO 8311 --- [cms-seizures] [           main] c.cms.seizures.CmsSeizuresApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T08:49:42.032Z  INFO 8311 --- [cms-seizures] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-08-13T08:49:42.065Z  INFO 8311 --- [cms-seizures] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-13T08:49:42.067Z  INFO 8311 --- [cms-seizures] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-08-13T08:49:42.164Z  INFO 8311 --- [cms-seizures] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-13T08:49:42.165Z  INFO 8311 --- [cms-seizures] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3682 ms
+2025-08-13T08:49:43.878Z  INFO 8311 --- [cms-seizures] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-08-13T08:49:44.206Z  INFO 8311 --- [cms-seizures] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-08-13T08:49:44.215Z  INFO 8311 --- [cms-seizures] [           main] c.cms.seizures.CmsSeizuresApplication    : Started CmsSeizuresApplication in 7.571 seconds (process running for 8.59)
+2025-08-13T08:49:50.738Z  INFO 8311 --- [cms-seizures] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13T08:49:50.739Z  INFO 8311 --- [cms-seizures] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-13T08:49:50.740Z  INFO 8311 --- [cms-seizures] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
